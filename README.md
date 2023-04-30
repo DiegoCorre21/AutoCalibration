@@ -7,7 +7,8 @@ The ChAruco board we used is 6x9 in dimensions, with squares = 29.7 mm, markers 
 
 We use an intel realsense D435 camera in RGB mode in the calibration, and use a file called realsense_depth.py for ease of initialization of the camera, if you use other camera, you will need to change it in the code, please download the realsense_depth.py file and paste it into your working directory.
 We use an Excel file to read the points in the robot, you need to change these points to the x,y,z,Rx,Ry,Rz you saved in P1, P2, ..., P6 slots.
-The code in the robot is called Auto_Hand_Calibration.
+
+The code in the robot is called Auto_Hand_Calibration, you need to run it at the same time you run the Python code.
 Once the calibration is done, a npz file called H_cam2grip will be generated.
 
 P1 to P4 in teaching pendant: 
