@@ -9,3 +9,6 @@ We use an intel realsense D435 camera in RGB mode in the calibration, and use a 
 We use an Excel file to read the points in the robot, you need to change these points to the x,y,z,Rx,Ry,Rz you saved in P1, P2, ..., P6 slots.
 The code in the robot is called Auto_Hand_Calibration.
 Once the calibration is done, a npz file called H_cam2grip will be generated.
+
+![si](https://user-images.githubusercontent.com/104682170/235343177-b28640e4-7d35-47ea-9e25-89b46c8685e0.png)
+
