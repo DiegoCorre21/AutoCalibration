@@ -10,6 +10,11 @@ We use an Excel file to read the points in the robot, you need to change these p
 The code in the robot is called Auto_Hand_Calibration.
 Once the calibration is done, a npz file called H_cam2grip will be generated.
 
+P1 to P4 in teaching pendant: 
+
+![teaching pendant](https://user-images.githubusercontent.com/104682170/235343407-fe7b38f7-953f-4c86-96cd-5e6d45f545d5.jpeg)
+
+
 ![si](https://user-images.githubusercontent.com/104682170/235343177-b28640e4-7d35-47ea-9e25-89b46c8685e0.png)
 
 Code output.
