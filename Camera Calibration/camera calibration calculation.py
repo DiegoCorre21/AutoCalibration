@@ -7,7 +7,7 @@ import glob
 ################ FIND CHESSBOARD CORNERS - OBJECT POINTS AND IMAGE POINTS #############################
 
 
-chessboardSize = (7, 5)
+chessboardSize = (7, 5)  # The dimensions of the chessboard are given by the amount of corners, not by the squares
 frameSize = (640, 480)
 
 
@@ -63,7 +63,7 @@ print(cameraMatrix)
 # Reprojection Error
 mean_error = 0
 np.savez(
-    f"MultiMatrix_fixed_640_480",
+    f"MultiMatrix_fixed_640_480",  # Change the name of the output file here
     camMatrix=cameraMatrix,
     distCoef=dist,
     rVector=rvecs,
