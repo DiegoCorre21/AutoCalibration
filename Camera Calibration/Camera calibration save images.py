@@ -2,7 +2,7 @@ import cv2
 import cv2 as cv
 import os
 
-CHESS_BOARD_DIM = (7, 5)
+CHESS_BOARD_DIM = (7, 5)  # The dimensions of the chessboard are given by the amount of corners, not by the squares
 
 n = 0  # image_counter
 
