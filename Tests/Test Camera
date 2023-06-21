@@ -1,0 +1,12 @@
+import cv2
+
+
+camera_number = 1
+cap = cv2.VideoCapture(camera_number, cv2.CAP_DSHOW)
+
+while True:
+    _, frame = cap.read()
+    cv2.imshow("Fixed-camera image", frame)
+    key = cv2.waitKey(1)
+    if key == ord("q"):
+        break
