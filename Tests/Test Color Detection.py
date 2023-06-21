@@ -13,6 +13,6 @@ while True:
     cv2.imshow("frame", mask)
     key = cv2.waitKey(1)
     if key == ord("q"):
-        cv2.imwrite("mask.png", mask)
+        cv2.imwrite("mask.png", mask)  # Save the mask image
         break
 
