@@ -7,7 +7,7 @@ from Funciones import *
 import re
 
 
-#  For gripper use
+#  For utilization of the gripper
 close = 1
 open = 0
 # Set parameters
