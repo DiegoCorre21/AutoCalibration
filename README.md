@@ -1,6 +1,6 @@
 For a comprehensive tutorial, please visit:
 
-https://docs.google.com/document/d/1V0rZ3DCIlkWljl1iL7p7Iktjq4ndV8LpqIw8fZg-DBo/edit?usp=sharing
+https://drive.google.com/file/d/1rrRb8AAF-XBMCto1JHatUg_cN1OK2jS7/view?usp=drive_link
 
 Final result:
 
